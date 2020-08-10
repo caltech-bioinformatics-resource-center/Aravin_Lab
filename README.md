@@ -11,7 +11,7 @@
 * Install piRNA RNAseq processing codes `git clone https://github.com/caltech-bioinformatics-resource-center/Aravin_Labs.git`. 
 * Relocate to local piRNA code directory `cd Aravin_Lab`.
 * Transfer raw single-end fastq.gz files to the piRNA code directory.
-* Modify `sample_ID.txt` file to include data IDs of raw single-end fastq files. Also include local PATH information for bowtie2, bowtie2 index, samtools, deeptools, bedtools, macs2 in `run_alignment` and `run_multi_reads_for_rev` files.
+* Modify `sample_ID.txt` file to include data IDs of raw single-end fastq files. Also include local PATH information for bowtie2, bowtie2 index, samtools, deeptools, bedtools in `run_alignment` and `run_multi_reads_for_rev` files.
 * Run alignment `bash run_alignment`.
 * Run further analysis for uniquely and multi-mapped reads `bash run_multi_reads_for_rev`.
 ####
